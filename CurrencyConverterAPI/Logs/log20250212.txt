@@ -1,0 +1,993 @@
+2025-02-12 02:09:25.278 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 02:09:26.398 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 02:09:26.953 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 02:09:26.960 +04:00 [INF] Hosting environment: Development
+2025-02-12 02:09:26.962 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 02:09:28.933 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 02:09:30.699 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 1788.499ms
+2025-02-12 02:09:31.338 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 02:09:31.350 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 13.5116ms
+2025-02-12 02:09:32.346 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 02:09:32.762 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 416.4846ms
+2025-02-12 02:09:33.361 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 02:09:34.034 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 672.9164ms
+2025-02-12 02:10:02.607 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 02:10:02.643 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:10:02.720 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 02:10:06.945 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 02:10:06.954 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 02:10:12.126 +04:00 [INF] Received HTTP response headers after 5165.6828ms - 200
+2025-02-12 02:10:12.130 +04:00 [INF] End processing HTTP request after 5190.846ms - 200
+2025-02-12 02:10:12.820 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 02:10:12.855 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 10120.7398ms
+2025-02-12 02:10:12.862 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:10:12.877 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 10269.756ms
+2025-02-12 02:18:57.922 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 02:18:58.678 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 02:18:59.124 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 02:18:59.127 +04:00 [INF] Hosting environment: Development
+2025-02-12 02:18:59.130 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 02:19:02.052 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 02:19:03.418 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: 614db0d9-363d-418e-8920-2a35c978ed72
+2025-02-12 02:19:04.712 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 1304 ms, CorrelationId: 614db0d9-363d-418e-8920-2a35c978ed72
+2025-02-12 02:19:05.012 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 02:19:05.547 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 3514.3468ms
+2025-02-12 02:19:07.390 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 2379.2796ms
+2025-02-12 02:19:07.436 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 02:19:08.640 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1203.0364ms
+2025-02-12 02:19:09.132 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 02:19:09.152 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: 2745a3b0-0f30-457f-940a-1e77842d3b22
+2025-02-12 02:19:11.019 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 1868 ms, CorrelationId: 2745a3b0-0f30-457f-940a-1e77842d3b22
+2025-02-12 02:19:11.270 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2138.1474ms
+2025-02-12 02:19:20.562 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 02:19:20.568 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: f61524a3-890d-46e7-a574-336642ecc32c
+2025-02-12 02:19:20.593 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:19:20.658 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 02:19:20.887 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 02:19:20.897 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 02:19:22.738 +04:00 [INF] Received HTTP response headers after 1833.0538ms - 200
+2025-02-12 02:19:22.744 +04:00 [INF] End processing HTTP request after 1869.537ms - 200
+2025-02-12 02:19:22.843 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 02:19:22.871 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 2200.5321ms
+2025-02-12 02:19:22.875 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:19:22.884 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 2316 ms, CorrelationId: f61524a3-890d-46e7-a574-336642ecc32c
+2025-02-12 02:19:22.889 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 2327.0573ms
+2025-02-12 02:20:14.091 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 02:20:44.550 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: 884eb741-3c64-4130-a240-d046cab5b56f
+2025-02-12 02:20:46.055 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:20:46.059 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 02:20:46.068 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 02:20:46.070 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 4.7055ms
+2025-02-12 02:20:46.079 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 02:20:51.011 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 28902 ms, CorrelationId: 884eb741-3c64-4130-a240-d046cab5b56f
+2025-02-12 02:20:53.553 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 39462.8314ms
+2025-02-12 03:52:35.655 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 03:52:37.668 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 03:52:39.439 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 03:52:39.442 +04:00 [INF] Hosting environment: Development
+2025-02-12 03:52:39.444 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 03:52:45.842 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 03:53:18.940 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: d87db3d6-de77-475b-8cb8-8f9cd64fdca4
+2025-02-12 03:53:22.550 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 3661 ms, CorrelationId: d87db3d6-de77-475b-8cb8-8f9cd64fdca4
+2025-02-12 03:53:23.407 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 38040.9996ms
+2025-02-12 03:53:24.811 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 03:53:24.811 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 03:53:24.821 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 22.5168ms
+2025-02-12 03:53:25.150 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 339.7801ms
+2025-02-12 03:53:25.452 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 03:54:28.611 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: e8363134-6031-444b-a6de-ac893f18e35b
+2025-02-12 03:54:29.108 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 499 ms, CorrelationId: e8363134-6031-444b-a6de-ac893f18e35b
+2025-02-12 03:54:29.113 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63661.0104ms
+2025-02-12 03:54:39.937 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 03:54:42.700 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: b83a04f4-24c0-4a5e-8283-47407880fe25
+2025-02-12 03:54:42.720 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 03:54:42.789 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 03:54:44.492 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 03:54:44.560 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 03:54:44.568 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 03:54:46.196 +04:00 [INF] Received HTTP response headers after 1612.9923ms - 200
+2025-02-12 03:54:46.213 +04:00 [INF] End processing HTTP request after 1662.5871ms - 200
+2025-02-12 03:54:46.294 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1793.8033ms.
+2025-02-12 03:54:46.306 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 03:54:46.330 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 3530.1444ms
+2025-02-12 03:54:46.333 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 03:54:46.340 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 3640 ms, CorrelationId: b83a04f4-24c0-4a5e-8283-47407880fe25
+2025-02-12 03:54:46.344 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 6407.6974ms
+2025-02-12 03:55:40.165 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 03:55:42.364 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: cafbf25a-34c0-4be5-ab51-4865e7201ecc
+2025-02-12 03:55:42.378 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 03:55:42.389 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 03:55:42.395 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 03:55:42.401 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6383ms.
+2025-02-12 03:55:42.406 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 03:55:42.410 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 16.3474ms
+2025-02-12 03:55:42.414 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 03:55:42.417 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 52 ms, CorrelationId: cafbf25a-34c0-4be5-ab51-4865e7201ecc
+2025-02-12 03:55:42.421 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 2256.0111ms
+2025-02-12 03:56:36.573 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=eur&from=2024-01-01&to=2024-02-01&page=1&pageSize=10 - null null
+2025-02-12 03:56:36.600 +04:00 [INF] Request received: GET /api/v1/Currency/historical, ClientId: Unknown, IP: ::1, CorrelationId: 00d62dcd-0d14-478b-b5d4-1937c9d2a13e
+2025-02-12 03:56:36.610 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI)'
+2025-02-12 03:56:36.623 +04:00 [INF] Route matched with {action = "GetHistoricalRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.PaginatedResponse`1[CurrencyConverterAPI.Models.HistoricalRate]]] GetHistoricalRates(System.String, System.DateTime, System.DateTime, Int32, Int32) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 03:56:36.642 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 03:56:36.670 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-01?base=eur
+2025-02-12 03:56:36.672 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-01?base=eur
+2025-02-12 03:56:37.530 +04:00 [INF] Received HTTP response headers after 855.4125ms - 200
+2025-02-12 03:56:37.538 +04:00 [INF] End processing HTTP request after 867.3423ms - 200
+2025-02-12 03:56:37.542 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-02?base=eur
+2025-02-12 03:56:37.550 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-02?base=eur
+2025-02-12 03:56:38.014 +04:00 [INF] Received HTTP response headers after 460.6751ms - 200
+2025-02-12 03:56:38.019 +04:00 [INF] End processing HTTP request after 476.4813ms - 200
+2025-02-12 03:56:38.022 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-03?base=eur
+2025-02-12 03:56:38.024 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-03?base=eur
+2025-02-12 03:56:38.480 +04:00 [INF] Received HTTP response headers after 453.7979ms - 200
+2025-02-12 03:56:38.484 +04:00 [INF] End processing HTTP request after 462.011ms - 200
+2025-02-12 03:56:38.488 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-04?base=eur
+2025-02-12 03:56:38.491 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-04?base=eur
+2025-02-12 03:56:38.942 +04:00 [INF] Received HTTP response headers after 443.6774ms - 200
+2025-02-12 03:56:38.948 +04:00 [INF] End processing HTTP request after 459.5876ms - 200
+2025-02-12 03:56:38.950 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-05?base=eur
+2025-02-12 03:56:38.952 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-05?base=eur
+2025-02-12 03:56:39.396 +04:00 [INF] Received HTTP response headers after 442.0934ms - 200
+2025-02-12 03:56:39.425 +04:00 [INF] End processing HTTP request after 474.8979ms - 200
+2025-02-12 03:56:39.429 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-06?base=eur
+2025-02-12 03:56:39.431 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-06?base=eur
+2025-02-12 03:56:39.880 +04:00 [INF] Received HTTP response headers after 446.7325ms - 200
+2025-02-12 03:56:39.884 +04:00 [INF] End processing HTTP request after 454.4458ms - 200
+2025-02-12 03:56:39.887 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-07?base=eur
+2025-02-12 03:56:39.889 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-07?base=eur
+2025-02-12 03:56:40.331 +04:00 [INF] Received HTTP response headers after 439.3387ms - 200
+2025-02-12 03:56:40.333 +04:00 [INF] End processing HTTP request after 446.4993ms - 200
+2025-02-12 03:56:40.336 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-08?base=eur
+2025-02-12 03:56:40.339 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-08?base=eur
+2025-02-12 03:56:40.776 +04:00 [INF] Received HTTP response headers after 435.2694ms - 200
+2025-02-12 03:56:40.784 +04:00 [INF] End processing HTTP request after 447.0527ms - 200
+2025-02-12 03:56:40.786 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-09?base=eur
+2025-02-12 03:56:40.789 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-09?base=eur
+2025-02-12 03:56:41.236 +04:00 [INF] Received HTTP response headers after 445.3319ms - 200
+2025-02-12 03:56:41.238 +04:00 [INF] End processing HTTP request after 452.1349ms - 200
+2025-02-12 03:56:41.241 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-10?base=eur
+2025-02-12 03:56:41.246 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-10?base=eur
+2025-02-12 03:56:41.692 +04:00 [INF] Received HTTP response headers after 443.3439ms - 200
+2025-02-12 03:56:41.696 +04:00 [INF] End processing HTTP request after 455.3839ms - 200
+2025-02-12 03:56:41.699 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-11?base=eur
+2025-02-12 03:56:41.701 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-11?base=eur
+2025-02-12 03:56:42.140 +04:00 [INF] Received HTTP response headers after 436.3869ms - 200
+2025-02-12 03:56:42.151 +04:00 [INF] End processing HTTP request after 451.9112ms - 200
+2025-02-12 03:56:42.164 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-12?base=eur
+2025-02-12 03:56:42.170 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-12?base=eur
+2025-02-12 03:56:42.622 +04:00 [INF] Received HTTP response headers after 446.6372ms - 200
+2025-02-12 03:56:42.635 +04:00 [INF] End processing HTTP request after 471.1022ms - 200
+2025-02-12 03:56:42.660 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-13?base=eur
+2025-02-12 03:56:42.704 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-13?base=eur
+2025-02-12 03:56:43.164 +04:00 [INF] Received HTTP response headers after 445.1449ms - 200
+2025-02-12 03:56:43.173 +04:00 [INF] End processing HTTP request after 513.1021ms - 200
+2025-02-12 03:56:43.182 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-14?base=eur
+2025-02-12 03:56:43.189 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-14?base=eur
+2025-02-12 03:56:43.640 +04:00 [INF] Received HTTP response headers after 442.5563ms - 200
+2025-02-12 03:56:43.671 +04:00 [INF] End processing HTTP request after 488.9807ms - 200
+2025-02-12 03:56:43.683 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-15?base=eur
+2025-02-12 03:56:43.687 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-15?base=eur
+2025-02-12 03:56:44.126 +04:00 [INF] Received HTTP response headers after 437.0953ms - 200
+2025-02-12 03:56:44.173 +04:00 [INF] End processing HTTP request after 489.503ms - 200
+2025-02-12 03:56:44.209 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-16?base=eur
+2025-02-12 03:56:44.249 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-16?base=eur
+2025-02-12 03:56:44.720 +04:00 [INF] Received HTTP response headers after 467.8621ms - 200
+2025-02-12 03:56:44.736 +04:00 [INF] End processing HTTP request after 526.7684ms - 200
+2025-02-12 03:56:44.754 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-17?base=eur
+2025-02-12 03:56:44.768 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-17?base=eur
+2025-02-12 03:56:45.219 +04:00 [INF] Received HTTP response headers after 443.0188ms - 200
+2025-02-12 03:56:45.221 +04:00 [INF] End processing HTTP request after 466.9154ms - 200
+2025-02-12 03:56:45.223 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-18?base=eur
+2025-02-12 03:56:45.225 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-18?base=eur
+2025-02-12 03:56:45.668 +04:00 [INF] Received HTTP response headers after 439.4037ms - 200
+2025-02-12 03:56:45.682 +04:00 [INF] End processing HTTP request after 458.4916ms - 200
+2025-02-12 03:56:45.698 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-19?base=eur
+2025-02-12 03:56:45.707 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-19?base=eur
+2025-02-12 03:56:46.170 +04:00 [INF] Received HTTP response headers after 443.7579ms - 200
+2025-02-12 03:56:46.176 +04:00 [INF] End processing HTTP request after 483.3378ms - 200
+2025-02-12 03:56:46.188 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-20?base=eur
+2025-02-12 03:56:46.198 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-20?base=eur
+2025-02-12 03:56:46.651 +04:00 [INF] Received HTTP response headers after 445.2747ms - 200
+2025-02-12 03:56:46.666 +04:00 [INF] End processing HTTP request after 478.1793ms - 200
+2025-02-12 03:56:46.685 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-21?base=eur
+2025-02-12 03:56:46.698 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-21?base=eur
+2025-02-12 03:56:47.150 +04:00 [INF] Received HTTP response headers after 442.6615ms - 200
+2025-02-12 03:56:47.166 +04:00 [INF] End processing HTTP request after 480.4508ms - 200
+2025-02-12 03:56:47.183 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-22?base=eur
+2025-02-12 03:56:47.192 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-22?base=eur
+2025-02-12 03:56:47.654 +04:00 [INF] Received HTTP response headers after 441.0261ms - 200
+2025-02-12 03:56:47.668 +04:00 [INF] End processing HTTP request after 485.1155ms - 200
+2025-02-12 03:56:47.684 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-23?base=eur
+2025-02-12 03:56:47.692 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-23?base=eur
+2025-02-12 03:56:48.202 +04:00 [INF] Received HTTP response headers after 498.2165ms - 200
+2025-02-12 03:56:48.236 +04:00 [INF] End processing HTTP request after 552.287ms - 200
+2025-02-12 03:56:48.238 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-24?base=eur
+2025-02-12 03:56:48.240 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-24?base=eur
+2025-02-12 03:56:48.695 +04:00 [INF] Received HTTP response headers after 450.307ms - 200
+2025-02-12 03:56:48.697 +04:00 [INF] End processing HTTP request after 458.4237ms - 200
+2025-02-12 03:56:48.700 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-25?base=eur
+2025-02-12 03:56:48.702 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-25?base=eur
+2025-02-12 03:56:49.154 +04:00 [INF] Received HTTP response headers after 449.5955ms - 200
+2025-02-12 03:56:49.172 +04:00 [INF] End processing HTTP request after 471.9022ms - 200
+2025-02-12 03:56:49.192 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-26?base=eur
+2025-02-12 03:56:49.207 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-26?base=eur
+2025-02-12 03:56:49.692 +04:00 [INF] Received HTTP response headers after 451.1357ms - 200
+2025-02-12 03:56:49.696 +04:00 [INF] End processing HTTP request after 504.72ms - 200
+2025-02-12 03:56:49.700 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-27?base=eur
+2025-02-12 03:56:49.702 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-27?base=eur
+2025-02-12 03:56:50.138 +04:00 [INF] Received HTTP response headers after 434.3084ms - 200
+2025-02-12 03:56:50.158 +04:00 [INF] End processing HTTP request after 458.0195ms - 200
+2025-02-12 03:56:50.189 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-28?base=eur
+2025-02-12 03:56:50.202 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-28?base=eur
+2025-02-12 03:56:50.657 +04:00 [INF] Received HTTP response headers after 437.9014ms - 200
+2025-02-12 03:56:50.666 +04:00 [INF] End processing HTTP request after 477.0519ms - 200
+2025-02-12 03:56:50.673 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-29?base=eur
+2025-02-12 03:56:50.688 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-29?base=eur
+2025-02-12 03:56:51.146 +04:00 [INF] Received HTTP response headers after 449.0422ms - 200
+2025-02-12 03:56:51.149 +04:00 [INF] End processing HTTP request after 476.635ms - 200
+2025-02-12 03:56:51.152 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-30?base=eur
+2025-02-12 03:56:51.155 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-30?base=eur
+2025-02-12 03:56:51.601 +04:00 [INF] Received HTTP response headers after 444.0483ms - 200
+2025-02-12 03:56:51.674 +04:00 [INF] End processing HTTP request after 521.6442ms - 200
+2025-02-12 03:56:51.683 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-01-31?base=eur
+2025-02-12 03:56:51.686 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-01-31?base=eur
+2025-02-12 03:56:52.129 +04:00 [INF] Received HTTP response headers after 440.2271ms - 200
+2025-02-12 03:56:52.141 +04:00 [INF] End processing HTTP request after 458.3182ms - 200
+2025-02-12 03:56:52.172 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-02-01?base=eur
+2025-02-12 03:56:52.191 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-02-01?base=eur
+2025-02-12 03:56:52.663 +04:00 [INF] Received HTTP response headers after 447.0217ms - 200
+2025-02-12 03:56:52.686 +04:00 [INF] End processing HTTP request after 513.5076ms - 200
+2025-02-12 03:56:52.691 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16040.0283ms.
+2025-02-12 03:56:52.701 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.PaginatedResponse`1[[CurrencyConverterAPI.Models.HistoricalRate, CurrencyConverterAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-12 03:56:52.716 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI) in 16090.4573ms
+2025-02-12 03:56:52.721 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI)'
+2025-02-12 03:56:52.723 +04:00 [INF] Response sent: GET /api/v1/Currency/historical, Status: 200, Response Time: 16123 ms, CorrelationId: 00d62dcd-0d14-478b-b5d4-1937c9d2a13e
+2025-02-12 03:56:52.729 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=eur&from=2024-01-01&to=2024-02-01&page=1&pageSize=10 - 200 null application/json; charset=utf-8 16155.785ms
+2025-02-12 04:27:56.098 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 04:27:57.004 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 04:27:57.162 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 04:27:57.184 +04:00 [INF] Hosting environment: Development
+2025-02-12 04:27:57.186 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 04:27:58.945 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 04:27:59.857 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: a3707341-76f2-4cc4-911c-b490a8d8a8e6
+2025-02-12 04:28:04.249 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 4397 ms, CorrelationId: a3707341-76f2-4cc4-911c-b490a8d8a8e6
+2025-02-12 04:28:04.260 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 5374.6728ms
+2025-02-12 04:28:04.557 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 04:28:04.617 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 60.565ms
+2025-02-12 04:28:06.119 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 04:28:06.922 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 803.0024ms
+2025-02-12 04:28:07.111 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 04:28:07.116 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: 5a0007b4-2660-4d6a-bf9d-503df1422eca
+2025-02-12 04:28:08.649 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 1532 ms, CorrelationId: 5a0007b4-2660-4d6a-bf9d-503df1422eca
+2025-02-12 04:28:08.750 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1639.7683ms
+2025-02-12 04:28:33.609 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 65
+2025-02-12 04:28:33.658 +04:00 [INF] Request received: POST /api/v1/Currency/convert, ClientId: Unknown, IP: ::1, CorrelationId: 7f9977d4-a582-4e16-a94b-aeef38b4ce7e
+2025-02-12 04:28:33.695 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 04:28:33.766 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 04:28:39.098 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 04:28:39.235 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=eur
+2025-02-12 04:28:39.264 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=eur
+2025-02-12 04:28:41.040 +04:00 [INF] Received HTTP response headers after 1756.5681ms - 200
+2025-02-12 04:28:41.044 +04:00 [INF] End processing HTTP request after 1826.9873ms - 200
+2025-02-12 04:28:41.968 +04:00 [ERR] Error converting currency
+System.InvalidOperationException: Conversion rate from eur to inr not found.
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 72
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 66
+2025-02-12 04:28:42.166 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 3051.5035ms.
+2025-02-12 04:28:42.192 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 04:28:42.298 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 8517.788ms
+2025-02-12 04:28:42.302 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 04:28:42.310 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 8652 ms, CorrelationId: 7f9977d4-a582-4e16-a94b-aeef38b4ce7e
+2025-02-12 04:28:42.315 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 8705.5444ms
+2025-02-12 13:51:43.335 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 13:51:44.033 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 13:51:44.216 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 13:51:44.219 +04:00 [INF] Hosting environment: Development
+2025-02-12 13:51:44.221 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 13:51:45.338 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 13:51:45.669 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: 56eea781-bd88-4aa8-a1d7-4ba1e8d39f17
+2025-02-12 13:51:47.710 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 2044 ms, CorrelationId: 56eea781-bd88-4aa8-a1d7-4ba1e8d39f17
+2025-02-12 13:51:48.141 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 2860.0383ms
+2025-02-12 13:51:48.878 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 13:51:48.903 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 13:51:48.909 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 6.7392ms
+2025-02-12 13:51:49.134 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 257.7715ms
+2025-02-12 13:51:49.934 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 13:51:50.098 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: 132dbf29-47b3-4d63-8b06-12f699a7817c
+2025-02-12 13:51:50.465 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 368 ms, CorrelationId: 132dbf29-47b3-4d63-8b06-12f699a7817c
+2025-02-12 13:51:50.471 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 537.6387ms
+2025-02-12 13:52:07.396 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 13:52:07.409 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: 9d5f2073-1b9a-407c-8826-94286da1ee97
+2025-02-12 13:52:07.427 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 13:52:07.504 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 13:52:08.366 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 13:52:08.431 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 13:52:08.443 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 13:52:31.416 +04:00 [INF] Received HTTP response headers after 22968.5272ms - 200
+2025-02-12 13:52:31.420 +04:00 [INF] End processing HTTP request after 22998.5253ms - 200
+2025-02-12 13:52:31.520 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23142.3198ms.
+2025-02-12 13:52:31.536 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 13:52:31.558 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 24034.6965ms
+2025-02-12 13:52:31.564 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 13:52:31.568 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 24159 ms, CorrelationId: 9d5f2073-1b9a-407c-8826-94286da1ee97
+2025-02-12 13:52:31.573 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 24178.3825ms
+2025-02-12 13:54:31.206 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 13:54:31.211 +04:00 [INF] Request received: POST /api/v1/Currency/convert, ClientId: Unknown, IP: ::1, CorrelationId: 6a981166-db27-43d7-9b73-27d0e0b5aa53
+2025-02-12 13:54:31.222 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 13:54:31.236 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 13:54:31.282 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 13:54:31.292 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 5.3346ms.
+2025-02-12 13:54:31.299 +04:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 13:54:31.319 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 75.7447ms
+2025-02-12 13:54:31.328 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 13:54:31.334 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 400, Response Time: 122 ms, CorrelationId: 6a981166-db27-43d7-9b73-27d0e0b5aa53
+2025-02-12 13:54:31.345 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 400 null application/json; charset=utf-8 139.8348ms
+2025-02-12 16:48:45.645 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 16:48:47.038 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 16:48:47.190 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 16:48:47.193 +04:00 [INF] Hosting environment: Development
+2025-02-12 16:48:47.195 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 16:48:48.082 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 16:48:48.464 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: ec752296-d771-494a-9aff-2144843fbd9b
+2025-02-12 16:48:50.768 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 2308 ms, CorrelationId: ec752296-d771-494a-9aff-2144843fbd9b
+2025-02-12 16:48:50.777 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 2749.183ms
+2025-02-12 16:48:53.359 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 16:48:53.369 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 16:48:53.370 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 12.4197ms
+2025-02-12 16:48:53.478 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.2274ms
+2025-02-12 16:48:54.932 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 16:48:54.937 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: d8d59a04-3a53-4f8f-bef1-9e73e25c4013
+2025-02-12 16:48:55.225 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 289 ms, CorrelationId: d8d59a04-3a53-4f8f-bef1-9e73e25c4013
+2025-02-12 16:48:55.229 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 297.7453ms
+2025-02-12 16:49:17.143 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 16:49:17.148 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: b0283568-0a73-47cc-b224-f39140464751
+2025-02-12 16:49:17.174 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 16:49:17.243 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 16:49:18.199 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 16:49:18.230 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 16:49:18.237 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 16:49:19.938 +04:00 [INF] Received HTTP response headers after 1693.92ms - 200
+2025-02-12 16:49:19.942 +04:00 [INF] End processing HTTP request after 1715.857ms - 200
+2025-02-12 16:49:20.036 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1827.0009ms.
+2025-02-12 16:49:20.049 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 16:49:20.080 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 2826.9685ms
+2025-02-12 16:49:20.084 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 16:49:20.088 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 2940 ms, CorrelationId: b0283568-0a73-47cc-b224-f39140464751
+2025-02-12 16:49:20.095 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 2953.9073ms
+2025-02-12 16:50:10.455 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 16:50:10.472 +04:00 [INF] Request received: POST /api/v1/Currency/convert, ClientId: Unknown, IP: ::1, CorrelationId: 69f46efd-6af5-4041-a688-4514c91e8d88
+2025-02-12 16:50:10.484 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User|Admin)
+2025-02-12 16:50:10.574 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-12 16:50:10.577 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 401, Response Time: 104 ms, CorrelationId: 69f46efd-6af5-4041-a688-4514c91e8d88
+2025-02-12 16:50:10.584 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 401 0 null 129.3265ms
+2025-02-12 16:52:28.254 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/auth/token - null 0
+2025-02-12 16:52:28.261 +04:00 [INF] Request received: POST /api/auth/token, ClientId: Unknown, IP: ::1, CorrelationId: 7cb03868-6310-4b9c-84fe-ffb2e581ce75
+2025-02-12 16:52:28.269 +04:00 [INF] Response sent: POST /api/auth/token, Status: 404, Response Time: 7 ms, CorrelationId: 7cb03868-6310-4b9c-84fe-ffb2e581ce75
+2025-02-12 16:52:28.274 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/auth/token - 404 0 null 39.1565ms
+2025-02-12 16:52:28.321 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5160/api/auth/token, Response status code: 404
+2025-02-12 16:52:54.366 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/auth/login - null 0
+2025-02-12 16:52:54.677 +04:00 [INF] Request received: POST /api/auth/login, ClientId: Unknown, IP: ::1, CorrelationId: deb7a986-f04e-4398-8cf1-8d98acf9a20e
+2025-02-12 16:52:54.684 +04:00 [INF] Executing endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:52:54.806 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginModel) on controller AuthController (CurrencyConverterAPI).
+2025-02-12 16:52:55.115 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 16:52:55.750 +04:00 [INF] Executed action AuthController.Login (CurrencyConverterAPI) in 936.8276ms
+2025-02-12 16:52:55.822 +04:00 [INF] Executed endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:52:55.830 +04:00 [INF] Response sent: POST /api/auth/login, Status: 415, Response Time: 1157 ms, CorrelationId: deb7a986-f04e-4398-8cf1-8d98acf9a20e
+2025-02-12 16:52:55.836 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/auth/login - 415 null application/problem+json; charset=utf-8 1469.8588ms
+2025-02-12 16:53:21.666 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/auth/login - application/json 58
+2025-02-12 16:53:21.686 +04:00 [INF] Request received: POST /api/auth/login, ClientId: Unknown, IP: ::1, CorrelationId: 154e2294-104d-4a49-95d5-65d211a464af
+2025-02-12 16:53:21.697 +04:00 [INF] Executing endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:53:21.700 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginModel) on controller AuthController (CurrencyConverterAPI).
+2025-02-12 16:53:21.787 +04:00 [INF] Executing action method AuthController.Login (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 16:53:22.819 +04:00 [INF] Executed action method AuthController.Login (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1024.6734ms.
+2025-02-12 16:53:22.825 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 16:53:22.882 +04:00 [INF] Executed action AuthController.Login (CurrencyConverterAPI) in 1169.8449ms
+2025-02-12 16:53:22.891 +04:00 [INF] Executed endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:53:22.894 +04:00 [INF] Response sent: POST /api/auth/login, Status: 200, Response Time: 1208 ms, CorrelationId: 154e2294-104d-4a49-95d5-65d211a464af
+2025-02-12 16:53:22.901 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/auth/login - 200 null application/json; charset=utf-8 1235.0742ms
+2025-02-12 16:55:34.408 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 16:55:34.601 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: 03799373-3cac-492d-af5f-198c42868622
+2025-02-12 16:55:34.692 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 91 ms, CorrelationId: 03799373-3cac-492d-af5f-198c42868622
+2025-02-12 16:55:34.704 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 295.9198ms
+2025-02-12 16:55:34.860 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 16:55:35.121 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 260.9075ms
+2025-02-12 16:55:35.868 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 16:55:36.008 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 169.7371ms
+2025-02-12 16:55:36.602 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 16:55:36.625 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: bf999f81-d6e6-4f6a-a4e2-599dcf94a001
+2025-02-12 16:55:37.249 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 623 ms, CorrelationId: bf999f81-d6e6-4f6a-a4e2-599dcf94a001
+2025-02-12 16:55:37.254 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 652.896ms
+2025-02-12 16:59:16.109 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 16:59:16.706 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 16:59:17.536 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 16:59:17.539 +04:00 [INF] Hosting environment: Development
+2025-02-12 16:59:17.541 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 16:59:20.722 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 16:59:21.483 +04:00 [INF] Request received: GET /swagger/index.html, ClientId: Unknown, IP: ::1, CorrelationId: cccd5f65-2d67-4ac4-832e-8ba1ffa5cb4a
+2025-02-12 16:59:23.959 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 2482 ms, CorrelationId: cccd5f65-2d67-4ac4-832e-8ba1ffa5cb4a
+2025-02-12 16:59:24.038 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 3411.6484ms
+2025-02-12 16:59:25.783 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 16:59:25.797 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 15.0304ms
+2025-02-12 16:59:25.855 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 16:59:26.291 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 436.1236ms
+2025-02-12 16:59:27.022 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 16:59:27.167 +04:00 [INF] Request received: GET /swagger/v1/swagger.json, ClientId: Unknown, IP: ::1, CorrelationId: b4a6a8fe-28de-4a39-acb6-d09ad9880877
+2025-02-12 16:59:29.987 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 2820 ms, CorrelationId: b4a6a8fe-28de-4a39-acb6-d09ad9880877
+2025-02-12 16:59:29.995 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2973.2375ms
+2025-02-12 16:59:32.389 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/auth/login - application/json 58
+2025-02-12 16:59:32.398 +04:00 [INF] Request received: POST /api/auth/login, ClientId: Unknown, IP: ::1, CorrelationId: 94c5bccf-fba4-42f7-a307-2c690c4b9483
+2025-02-12 16:59:32.465 +04:00 [INF] Executing endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:59:32.673 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginModel) on controller AuthController (CurrencyConverterAPI).
+2025-02-12 16:59:33.308 +04:00 [INF] Executing action method AuthController.Login (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 16:59:34.657 +04:00 [INF] Executed action method AuthController.Login (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1337.4284ms.
+2025-02-12 16:59:34.679 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 16:59:34.702 +04:00 [INF] Executed action AuthController.Login (CurrencyConverterAPI) in 2014.6148ms
+2025-02-12 16:59:34.706 +04:00 [INF] Executed endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 16:59:34.708 +04:00 [INF] Response sent: POST /api/auth/login, Status: 200, Response Time: 2310 ms, CorrelationId: 94c5bccf-fba4-42f7-a307-2c690c4b9483
+2025-02-12 16:59:34.716 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/auth/login - 200 null application/json; charset=utf-8 2327.3208ms
+2025-02-12 17:00:08.606 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 17:00:08.614 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: b5252178-3265-4f29-bb36-a042a350d5e3
+2025-02-12 17:00:08.807 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 17:00:08.826 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 17:00:08.972 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 17:00:09.006 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 17:00:09.015 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 17:00:10.483 +04:00 [INF] Received HTTP response headers after 1460.2031ms - 200
+2025-02-12 17:00:10.492 +04:00 [INF] End processing HTTP request after 1488.5138ms - 200
+2025-02-12 17:00:10.532 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1555.2804ms.
+2025-02-12 17:00:10.542 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 17:00:10.561 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 1726.1538ms
+2025-02-12 17:00:10.568 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 17:00:10.577 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 1963 ms, CorrelationId: b5252178-3265-4f29-bb36-a042a350d5e3
+2025-02-12 17:00:10.584 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1978.4126ms
+2025-02-12 17:00:42.180 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 17:00:42.191 +04:00 [INF] Request received: POST /api/v1/Currency/convert, ClientId: Unknown, IP: ::1, CorrelationId: 6d9a3d95-0312-48b3-b2c9-5e4db45c66ef
+2025-02-12 17:00:42.211 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User|Admin)
+2025-02-12 17:00:42.223 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-12 17:00:42.226 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 401, Response Time: 35 ms, CorrelationId: 6d9a3d95-0312-48b3-b2c9-5e4db45c66ef
+2025-02-12 17:00:42.234 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 401 0 null 54.4346ms
+2025-02-12 17:01:09.325 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=EUR&from=2024-10-01&to=2024-10-20&page=1&pageSize=10 - null null
+2025-02-12 17:01:09.331 +04:00 [INF] Request received: GET /api/v1/Currency/historical, ClientId: Unknown, IP: ::1, CorrelationId: 3b5294eb-6948-46bb-b8e0-f269ce93b5b4
+2025-02-12 17:01:09.341 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User|Admin)
+2025-02-12 17:01:09.346 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-12 17:01:09.384 +04:00 [INF] Response sent: GET /api/v1/Currency/historical, Status: 401, Response Time: 52 ms, CorrelationId: 3b5294eb-6948-46bb-b8e0-f269ce93b5b4
+2025-02-12 17:01:09.390 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=EUR&from=2024-10-01&to=2024-10-20&page=1&pageSize=10 - 401 0 null 65.6538ms
+2025-02-12 17:01:23.165 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 17:01:23.171 +04:00 [INF] Request received: GET /api/v1/Currency/rates, ClientId: Unknown, IP: ::1, CorrelationId: 857b979b-209e-4e8e-b284-424e21966398
+2025-02-12 17:01:23.181 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 17:01:23.187 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 17:01:23.200 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 17:01:23.208 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2739ms.
+2025-02-12 17:01:23.213 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 17:01:23.217 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 18.3174ms
+2025-02-12 17:01:23.224 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 17:01:23.231 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 59 ms, CorrelationId: 857b979b-209e-4e8e-b284-424e21966398
+2025-02-12 17:01:23.241 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 76.4754ms
+2025-02-12 17:01:39.156 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 17:01:39.162 +04:00 [INF] Request received: POST /api/v1/Currency/convert, ClientId: Unknown, IP: ::1, CorrelationId: 5513108a-78e5-4bb6-b7a7-133525a40e95
+2025-02-12 17:01:39.221 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 17:01:39.230 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 17:01:39.249 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 17:01:39.261 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.4342ms.
+2025-02-12 17:01:39.272 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ConversionResponse'.
+2025-02-12 17:01:39.278 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 41.5475ms
+2025-02-12 17:01:39.282 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 17:01:39.285 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 200, Response Time: 123 ms, CorrelationId: 5513108a-78e5-4bb6-b7a7-133525a40e95
+2025-02-12 17:01:39.292 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 200 null application/json; charset=utf-8 135.3884ms
+2025-02-12 17:56:16.700 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 17:56:17.628 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 17:56:17.850 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 17:56:17.853 +04:00 [INF] Hosting environment: Development
+2025-02-12 17:56:17.854 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 17:56:22.518 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 17:56:26.810 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 3444 ms, CorrelationId: 64d37200-ba78-47fa-bfa2-f0fbb6f9c998
+2025-02-12 17:56:26.819 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 4722.46ms
+2025-02-12 17:56:28.656 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 17:56:28.702 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 46.8319ms
+2025-02-12 17:56:29.523 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 17:56:30.429 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 905.8112ms
+2025-02-12 17:56:33.257 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 17:56:34.600 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 1335 ms, CorrelationId: 5e1124cb-e006-4b54-a208-aab96f45e24a
+2025-02-12 17:56:34.604 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1347.6866ms
+2025-02-12 17:58:39.783 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 17:58:40.431 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 17:58:42.679 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 17:58:42.688 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 17:58:42.696 +04:00 [INF] Hosting environment: Development
+2025-02-12 17:58:42.697 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 17:58:43.889 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 680 ms, CorrelationId: a33de200-21da-4bc8-a9c7-5be3fc794a21
+2025-02-12 17:58:43.932 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 1309.4981ms
+2025-02-12 17:58:45.055 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 17:58:45.058 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 17:58:45.065 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 10.8227ms
+2025-02-12 17:58:45.176 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.0856ms
+2025-02-12 17:58:45.969 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 17:58:46.567 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 585 ms, CorrelationId: f7e63136-0edd-44c7-be21-64e9f9282064
+2025-02-12 17:58:46.572 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 603.6813ms
+2025-02-12 18:00:38.927 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 18:00:38.981 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:00:39.033 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:00:49.150 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:00:49.202 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:00:49.212 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:00:51.109 +04:00 [INF] Received HTTP response headers after 1889.5526ms - 200
+2025-02-12 18:00:51.112 +04:00 [INF] End processing HTTP request after 1917.0846ms - 200
+2025-02-12 18:00:51.282 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2116.2944ms.
+2025-02-12 18:00:51.301 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 18:00:51.328 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 12283.6997ms
+2025-02-12 18:00:51.370 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:00:51.379 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 12444 ms, CorrelationId: 3efb4857-56e8-43c1-9a58-efb1c501aec9
+2025-02-12 18:00:51.384 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 12458.1812ms
+2025-02-12 18:07:28.537 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/auth/login - application/json 58
+2025-02-12 18:07:28.575 +04:00 [INF] Executing endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 18:07:28.600 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginModel) on controller AuthController (CurrencyConverterAPI).
+2025-02-12 18:07:28.725 +04:00 [INF] Executing action method AuthController.Login (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:07:29.146 +04:00 [INF] Executed action method AuthController.Login (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 414.5389ms.
+2025-02-12 18:07:29.152 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 18:07:29.164 +04:00 [INF] Executed action AuthController.Login (CurrencyConverterAPI) in 560.8981ms
+2025-02-12 18:07:29.167 +04:00 [INF] Executed endpoint 'AuthController.Login (CurrencyConverterAPI)'
+2025-02-12 18:07:29.232 +04:00 [INF] Response sent: POST /api/auth/login, Status: 200, Response Time: 679 ms, CorrelationId: 2a900222-be88-48cd-8296-a3b58a4f75e6
+2025-02-12 18:07:29.246 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/auth/login - 200 null application/json; charset=utf-8 722.0183ms
+2025-02-12 18:08:07.784 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:08:08.017 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:08:08.026 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:08:08.042 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:08:08.048 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=aed
+2025-02-12 18:08:08.051 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=aed
+2025-02-12 18:08:09.450 +04:00 [INF] Received HTTP response headers after 1396.1729ms - 404
+2025-02-12 18:08:09.452 +04:00 [INF] End processing HTTP request after 1404.0056ms - 404
+2025-02-12 18:08:10.096 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:08:10.205 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 2159.2186ms.
+2025-02-12 18:08:10.210 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:08:10.268 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 2234.6259ms
+2025-02-12 18:08:10.271 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:08:10.274 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 2466 ms, CorrelationId: b2c45875-81be-4c38-9f0c-e3825456266b
+2025-02-12 18:08:10.278 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 2494.5477ms
+2025-02-12 18:08:52.562 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:08:52.578 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:08:52.582 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:08:52.592 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:08:52.596 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:08:52.600 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:08:53.270 +04:00 [INF] Received HTTP response headers after 668.5281ms - 404
+2025-02-12 18:08:53.277 +04:00 [INF] End processing HTTP request after 680.66ms - 404
+2025-02-12 18:08:53.680 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:08:53.692 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 1095.6759ms.
+2025-02-12 18:08:53.695 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:08:53.697 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 1107.6365ms
+2025-02-12 18:08:53.701 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:08:53.703 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 1135 ms, CorrelationId: d073bd8c-f7e6-47c5-8c47-0c9cb610a6f2
+2025-02-12 18:08:53.708 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 1146ms
+2025-02-12 18:09:21.799 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=EUR&from=2024-10-01&to=2024-10-20&page=1&pageSize=10 - null null
+2025-02-12 18:09:21.878 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI)'
+2025-02-12 18:09:21.890 +04:00 [INF] Route matched with {action = "GetHistoricalRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.PaginatedResponse`1[CurrencyConverterAPI.Models.HistoricalRate]]] GetHistoricalRates(System.String, System.DateTime, System.DateTime, Int32, Int32) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:09:21.897 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:09:21.905 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-01?base=EUR
+2025-02-12 18:09:21.907 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-01?base=EUR
+2025-02-12 18:09:22.734 +04:00 [INF] Received HTTP response headers after 825.3073ms - 200
+2025-02-12 18:09:22.750 +04:00 [INF] End processing HTTP request after 844.8007ms - 200
+2025-02-12 18:09:22.768 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-02?base=EUR
+2025-02-12 18:09:22.779 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-02?base=EUR
+2025-02-12 18:09:23.453 +04:00 [INF] Received HTTP response headers after 669.4301ms - 200
+2025-02-12 18:09:23.460 +04:00 [INF] End processing HTTP request after 691.7515ms - 200
+2025-02-12 18:09:23.477 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-03?base=EUR
+2025-02-12 18:09:23.480 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-03?base=EUR
+2025-02-12 18:09:24.123 +04:00 [INF] Received HTTP response headers after 641.0416ms - 200
+2025-02-12 18:09:24.133 +04:00 [INF] End processing HTTP request after 655.3708ms - 200
+2025-02-12 18:09:24.147 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-04?base=EUR
+2025-02-12 18:09:24.151 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-04?base=EUR
+2025-02-12 18:09:25.061 +04:00 [INF] Received HTTP response headers after 902.6284ms - 200
+2025-02-12 18:09:25.064 +04:00 [INF] End processing HTTP request after 916.9271ms - 200
+2025-02-12 18:09:25.066 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-05?base=EUR
+2025-02-12 18:09:25.070 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-05?base=EUR
+2025-02-12 18:09:25.716 +04:00 [INF] Received HTTP response headers after 644.539ms - 200
+2025-02-12 18:09:25.732 +04:00 [INF] End processing HTTP request after 665.12ms - 200
+2025-02-12 18:09:25.744 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-06?base=EUR
+2025-02-12 18:09:25.748 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-06?base=EUR
+2025-02-12 18:09:26.406 +04:00 [INF] Received HTTP response headers after 654.4794ms - 200
+2025-02-12 18:09:26.412 +04:00 [INF] End processing HTTP request after 668.1596ms - 200
+2025-02-12 18:09:26.416 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-07?base=EUR
+2025-02-12 18:09:26.419 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-07?base=EUR
+2025-02-12 18:09:27.071 +04:00 [INF] Received HTTP response headers after 648.2179ms - 200
+2025-02-12 18:09:27.091 +04:00 [INF] End processing HTTP request after 674.5202ms - 200
+2025-02-12 18:09:27.102 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-08?base=EUR
+2025-02-12 18:09:27.118 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-08?base=EUR
+2025-02-12 18:09:27.787 +04:00 [INF] Received HTTP response headers after 663.438ms - 200
+2025-02-12 18:09:27.789 +04:00 [INF] End processing HTTP request after 687.6526ms - 200
+2025-02-12 18:09:27.794 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-09?base=EUR
+2025-02-12 18:09:27.797 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-09?base=EUR
+2025-02-12 18:09:29.984 +04:00 [INF] Received HTTP response headers after 2184.7828ms - 200
+2025-02-12 18:09:29.996 +04:00 [INF] End processing HTTP request after 2202.4943ms - 200
+2025-02-12 18:09:30.000 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-10?base=EUR
+2025-02-12 18:09:30.007 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-10?base=EUR
+2025-02-12 18:09:30.650 +04:00 [INF] Received HTTP response headers after 640.5045ms - 200
+2025-02-12 18:09:30.660 +04:00 [INF] End processing HTTP request after 660.1177ms - 200
+2025-02-12 18:09:30.664 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-11?base=EUR
+2025-02-12 18:09:30.667 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-11?base=EUR
+2025-02-12 18:09:31.331 +04:00 [INF] Received HTTP response headers after 656.9422ms - 200
+2025-02-12 18:09:31.333 +04:00 [INF] End processing HTTP request after 668.7963ms - 200
+2025-02-12 18:09:31.336 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-12?base=EUR
+2025-02-12 18:09:31.338 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-12?base=EUR
+2025-02-12 18:09:31.973 +04:00 [INF] Received HTTP response headers after 632.573ms - 200
+2025-02-12 18:09:31.980 +04:00 [INF] End processing HTTP request after 644.8119ms - 200
+2025-02-12 18:09:31.983 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-13?base=EUR
+2025-02-12 18:09:31.986 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-13?base=EUR
+2025-02-12 18:09:32.634 +04:00 [INF] Received HTTP response headers after 645.8985ms - 200
+2025-02-12 18:09:32.646 +04:00 [INF] End processing HTTP request after 662.1709ms - 200
+2025-02-12 18:09:32.648 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-14?base=EUR
+2025-02-12 18:09:32.651 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-14?base=EUR
+2025-02-12 18:09:33.321 +04:00 [INF] Received HTTP response headers after 665.1936ms - 200
+2025-02-12 18:09:33.324 +04:00 [INF] End processing HTTP request after 675.9138ms - 200
+2025-02-12 18:09:33.327 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-15?base=EUR
+2025-02-12 18:09:33.329 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-15?base=EUR
+2025-02-12 18:09:33.960 +04:00 [INF] Received HTTP response headers after 628.8018ms - 200
+2025-02-12 18:09:33.971 +04:00 [INF] End processing HTTP request after 643.7109ms - 200
+2025-02-12 18:09:33.974 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-16?base=EUR
+2025-02-12 18:09:33.976 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-16?base=EUR
+2025-02-12 18:09:34.613 +04:00 [INF] Received HTTP response headers after 634.1668ms - 200
+2025-02-12 18:09:34.615 +04:00 [INF] End processing HTTP request after 640.5913ms - 200
+2025-02-12 18:09:34.617 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-17?base=EUR
+2025-02-12 18:09:34.620 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-17?base=EUR
+2025-02-12 18:09:35.286 +04:00 [INF] Received HTTP response headers after 662.5346ms - 200
+2025-02-12 18:09:35.297 +04:00 [INF] End processing HTTP request after 680.0761ms - 200
+2025-02-12 18:09:35.308 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-18?base=EUR
+2025-02-12 18:09:35.312 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-18?base=EUR
+2025-02-12 18:09:35.948 +04:00 [INF] Received HTTP response headers after 632.1508ms - 200
+2025-02-12 18:09:35.956 +04:00 [INF] End processing HTTP request after 647.5053ms - 200
+2025-02-12 18:09:35.971 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-19?base=EUR
+2025-02-12 18:09:35.989 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-19?base=EUR
+2025-02-12 18:09:36.628 +04:00 [INF] Received HTTP response headers after 635.0969ms - 200
+2025-02-12 18:09:36.630 +04:00 [INF] End processing HTTP request after 659.1687ms - 200
+2025-02-12 18:09:36.640 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2024-10-20?base=EUR
+2025-02-12 18:09:36.643 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2024-10-20?base=EUR
+2025-02-12 18:09:37.175 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 18:09:37.185 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:09:37.188 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:09:37.194 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:09:37.198 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:09:37.202 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:09:37.292 +04:00 [INF] Received HTTP response headers after 647.0846ms - 200
+2025-02-12 18:09:37.299 +04:00 [INF] End processing HTTP request after 658.7408ms - 200
+2025-02-12 18:09:37.310 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15410.5291ms.
+2025-02-12 18:09:37.315 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.PaginatedResponse`1[[CurrencyConverterAPI.Models.HistoricalRate, CurrencyConverterAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-12 18:09:37.327 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI) in 15433.1976ms
+2025-02-12 18:09:37.331 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetHistoricalRates (CurrencyConverterAPI)'
+2025-02-12 18:09:37.335 +04:00 [INF] Response sent: GET /api/v1/Currency/historical, Status: 200, Response Time: 15518 ms, CorrelationId: 5f5c7c26-df54-49b9-9ccf-d378a064ac65
+2025-02-12 18:09:37.342 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/historical?baseCurrency=EUR&from=2024-10-01&to=2024-10-20&page=1&pageSize=10 - 200 null application/json; charset=utf-8 15543.6075ms
+2025-02-12 18:09:37.603 +04:00 [INF] Received HTTP response headers after 396.9061ms - 200
+2025-02-12 18:09:37.606 +04:00 [INF] End processing HTTP request after 407.2008ms - 200
+2025-02-12 18:09:37.609 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 410.573ms.
+2025-02-12 18:09:37.612 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 18:09:37.615 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 420.5424ms
+2025-02-12 18:09:37.617 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:09:37.622 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 443 ms, CorrelationId: 5e8ff1c9-f2ed-4e2e-908b-cdc26b1799c4
+2025-02-12 18:09:37.627 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 452.4906ms
+2025-02-12 18:10:34.029 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:10:34.082 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:10:34.091 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:10:34.096 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:10:48.280 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:10:48.288 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:10:49.825 +04:00 [INF] Received HTTP response headers after 1534.9204ms - 404
+2025-02-12 18:10:49.828 +04:00 [INF] End processing HTTP request after 1547.9341ms - 404
+2025-02-12 18:16:05.802 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:16:05.856 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 331755.8481ms.
+2025-02-12 18:16:05.860 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:16:05.886 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 331790.5791ms
+2025-02-12 18:16:05.890 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:16:05.892 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 331837 ms, CorrelationId: 352f7a33-30ec-43e5-8ebc-07779034e19e
+2025-02-12 18:16:05.896 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 331867.0025ms
+2025-02-12 18:16:08.904 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 18:16:08.934 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:16:08.964 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:16:08.975 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:16:08.978 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:16:08.980 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:16:10.731 +04:00 [INF] Received HTTP response headers after 1749.0488ms - 200
+2025-02-12 18:16:10.750 +04:00 [INF] End processing HTTP request after 1771.7853ms - 200
+2025-02-12 18:16:10.754 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1777.0741ms.
+2025-02-12 18:16:10.768 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 18:16:10.771 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 1799.7307ms
+2025-02-12 18:16:10.784 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:16:10.787 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 1874 ms, CorrelationId: f840c1df-4d18-4657-8729-6fe96bd6f157
+2025-02-12 18:16:10.796 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1892.4754ms
+2025-02-12 18:16:50.309 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:16:50.366 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:16:50.369 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:16:50.374 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:17:01.545 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:17:01.548 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:17:01.845 +04:00 [INF] Received HTTP response headers after 293.6601ms - 404
+2025-02-12 18:17:01.848 +04:00 [INF] End processing HTTP request after 302.1912ms - 404
+2025-02-12 18:23:06.704 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:23:06.789 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 376411.8764ms.
+2025-02-12 18:23:06.802 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:23:06.804 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 376430.2614ms
+2025-02-12 18:23:06.807 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:23:06.810 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 376491 ms, CorrelationId: b8b840d0-6a87-4a0e-92c3-1685095e2114
+2025-02-12 18:23:06.814 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 376505.7242ms
+2025-02-12 18:23:13.811 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:23:13.826 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:23:13.832 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:23:13.838 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:23:18.265 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:23:18.271 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:23:19.203 +04:00 [INF] Received HTTP response headers after 929.5503ms - 404
+2025-02-12 18:23:19.208 +04:00 [INF] End processing HTTP request after 942.7144ms - 404
+2025-02-12 18:23:19.662 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:23:19.695 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 5854.0098ms.
+2025-02-12 18:23:19.718 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:23:19.723 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 5886.4435ms
+2025-02-12 18:23:19.732 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:23:19.736 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 5918 ms, CorrelationId: 59dbe98c-e15d-497e-b080-03e70a8db7cb
+2025-02-12 18:23:19.742 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 5932.4649ms
+2025-02-12 18:23:45.836 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:23:45.853 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:23:45.856 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:23:45.866 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:23:53.821 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:23:53.825 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:23:53.982 +04:00 [INF] Received HTTP response headers after 154.5625ms - 404
+2025-02-12 18:23:53.986 +04:00 [INF] End processing HTTP request after 165.8417ms - 404
+2025-02-12 18:23:54.445 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:23:54.463 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 8594.1134ms.
+2025-02-12 18:23:54.467 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:23:54.469 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 8603.6922ms
+2025-02-12 18:23:54.473 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:23:54.475 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 8629 ms, CorrelationId: 45eb163f-93c9-4ac0-b725-d61f2f249932
+2025-02-12 18:23:54.480 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 8644.2774ms
+2025-02-12 18:24:44.492 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:24:54.653 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:24:54.657 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:24:54.662 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:24:55.102 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:24:55.105 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:24:55.298 +04:00 [INF] Received HTTP response headers after 190.3429ms - 404
+2025-02-12 18:24:55.299 +04:00 [INF] End processing HTTP request after 197.814ms - 404
+2025-02-12 18:24:55.876 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:24:55.888 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 1222.2869ms.
+2025-02-12 18:24:55.891 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:24:55.894 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 1231.8908ms
+2025-02-12 18:24:55.897 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:24:55.899 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 11392 ms, CorrelationId: 2d2f3459-d13e-4595-b730-dd2247de5563
+2025-02-12 18:24:55.905 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 11413.139ms
+2025-02-12 18:25:13.951 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:25:22.639 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:25:22.644 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:25:22.651 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:25:25.791 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:25:25.802 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:25:27.294 +04:00 [INF] Received HTTP response headers after 1489.2958ms - 404
+2025-02-12 18:25:27.301 +04:00 [INF] End processing HTTP request after 1510.5869ms - 404
+2025-02-12 18:25:27.839 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:25:27.853 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 5199.2464ms.
+2025-02-12 18:25:27.857 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:25:27.860 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 5210.0582ms
+2025-02-12 18:25:27.863 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:25:27.867 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 13809 ms, CorrelationId: 50809eef-f52b-410c-a7d2-76288241d214
+2025-02-12 18:25:27.872 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 13920.5336ms
+2025-02-12 18:31:41.591 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:31:41.626 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:31:41.628 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:31:41.634 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:31:59.345 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:31:59.357 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:32:01.090 +04:00 [INF] Received HTTP response headers after 1697.706ms - 404
+2025-02-12 18:32:01.100 +04:00 [INF] End processing HTTP request after 1755.4524ms - 404
+2025-02-12 18:33:12.197 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:33:12.229 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 90586.6525ms.
+2025-02-12 18:33:12.236 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:33:12.240 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 90607.0675ms
+2025-02-12 18:33:12.244 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:33:12.247 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 90649 ms, CorrelationId: 781629cf-f73c-4358-a7cf-832b5c1ed313
+2025-02-12 18:33:12.252 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 90660.8083ms
+2025-02-12 18:40:12.895 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - null null
+2025-02-12 18:40:12.907 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:40:12.909 +04:00 [INF] Route matched with {action = "GetLatestRates", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ExchangeRateResponse]] GetLatestRates(System.String) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:40:12.955 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:40:12.958 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:40:12.960 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:40:14.569 +04:00 [INF] Received HTTP response headers after 1606.9792ms - 200
+2025-02-12 18:40:14.572 +04:00 [INF] End processing HTTP request after 1613.8801ms - 200
+2025-02-12 18:40:14.576 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1618.5378ms.
+2025-02-12 18:40:14.580 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ExchangeRateResponse'.
+2025-02-12 18:40:14.588 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI) in 1633.5729ms
+2025-02-12 18:40:14.596 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.GetLatestRates (CurrencyConverterAPI)'
+2025-02-12 18:40:14.604 +04:00 [INF] Response sent: GET /api/v1/Currency/rates, Status: 200, Response Time: 1701 ms, CorrelationId: 7a820dc6-464a-4ee2-8703-4b6b50cd1b83
+2025-02-12 18:40:14.608 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/api/v1/Currency/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1713.4282ms
+2025-02-12 18:40:20.150 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:40:20.163 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:40:20.168 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:40:20.177 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:40:20.180 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:40:20.187 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:40:20.467 +04:00 [INF] Received HTTP response headers after 276.8833ms - 404
+2025-02-12 18:40:20.479 +04:00 [INF] End processing HTTP request after 299.2603ms - 404
+2025-02-12 18:40:20.813 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:40:20.829 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 648.9339ms.
+2025-02-12 18:40:20.833 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:40:20.837 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 660.3568ms
+2025-02-12 18:40:20.839 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:40:20.842 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 684 ms, CorrelationId: 83ad9a8c-ca4e-44e0-b0ec-49dd06786d29
+2025-02-12 18:40:20.846 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 695.7452ms
+2025-02-12 18:40:46.702 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:40:46.727 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:40:46.736 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:40:46.744 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:40:49.803 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:40:49.811 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:40:50.460 +04:00 [INF] Received HTTP response headers after 645.5612ms - 404
+2025-02-12 18:40:50.466 +04:00 [INF] End processing HTTP request after 662.3515ms - 404
+2025-02-12 18:40:50.924 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:40:50.938 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 4192.386ms.
+2025-02-12 18:40:50.943 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:40:50.945 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 4202.3383ms
+2025-02-12 18:40:50.952 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:40:50.954 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 4246 ms, CorrelationId: cee88e33-48f4-465f-ad95-dd7eb39777d6
+2025-02-12 18:40:50.957 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 4255.8801ms
+2025-02-12 18:41:02.571 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:41:02.583 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:41:02.586 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:41:02.592 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:41:12.498 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:41:12.501 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:41:12.789 +04:00 [INF] Received HTTP response headers after 285.9906ms - 404
+2025-02-12 18:41:12.798 +04:00 [INF] End processing HTTP request after 300.3192ms - 404
+2025-02-12 18:41:13.175 +04:00 [ERR] Error converting currency
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FrankfurterService.<>c__DisplayClass6_0.<<GetLatestRatesAsync>b__0>d.MoveNext() in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 54
+--- End of stack trace from previous location ---
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController, CancellationToken cancellationToken)
+   at Polly.AsyncPolicy`1.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at FrankfurterService.GetLatestRatesAsync(String baseCurrency) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 51
+   at FrankfurterService.ConvertAsync(Decimal amount, String from, String to) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Services\FrankfurterService.cs:line 68
+   at CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency(ConversionRequest request) in D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\Controllers\CurrencyController.cs:line 68
+2025-02-12 18:41:13.185 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 10587.2241ms.
+2025-02-12 18:41:13.188 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 18:41:13.190 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 10598.9184ms
+2025-02-12 18:41:13.193 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:41:13.210 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 500, Response Time: 10634 ms, CorrelationId: 085f8066-3768-43d8-bed9-96d3602bcdc0
+2025-02-12 18:41:13.222 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 500 null application/problem+json; charset=utf-8 10650.7382ms
+2025-02-12 18:41:23.584 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:41:25.760 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:41:25.766 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:41:25.772 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:41:53.320 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:41:53.323 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=AED
+2025-02-12 18:41:53.616 +04:00 [INF] Received HTTP response headers after 288.2933ms - 404
+2025-02-12 18:41:53.619 +04:00 [INF] End processing HTTP request after 299.0035ms - 404
+2025-02-12 18:46:57.986 +04:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 18:46:59.036 +04:00 [INF] Now listening on: http://localhost:5160
+2025-02-12 18:46:59.280 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 18:46:59.283 +04:00 [INF] Hosting environment: Development
+2025-02-12 18:46:59.285 +04:00 [INF] Content root path: D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI
+2025-02-12 18:47:01.764 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-02-12 18:47:05.774 +04:00 [INF] Response sent: GET /swagger/index.html, Status: 200, Response Time: 3756 ms, CorrelationId: d0335d2f-2169-457b-8cdc-1797bb0fc59c
+2025-02-12 18:47:05.792 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 4113.9235ms
+2025-02-12 18:47:05.859 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 18:47:05.922 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 64.6539ms
+2025-02-12 18:47:06.722 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/_vs/browserLink - null null
+2025-02-12 18:47:06.955 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.5864ms
+2025-02-12 18:47:07.658 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-02-12 18:47:08.906 +04:00 [INF] Response sent: GET /swagger/v1/swagger.json, Status: 200, Response Time: 1238 ms, CorrelationId: 7a4589d3-c48a-4c2b-ac20-4353ec3c1424
+2025-02-12 18:47:08.914 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1256.853ms
+2025-02-12 18:48:35.590 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - application/json 66
+2025-02-12 18:48:35.968 +04:00 [INF] Executing endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:48:36.026 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrencyConverterAPI.Models.ConversionResponse]] ConvertCurrency(CurrencyConverterAPI.Models.ConversionRequest) on controller CurrencyConverterAPI.Controllers.CurrencyController (CurrencyConverterAPI).
+2025-02-12 18:48:36.235 +04:00 [INF] Executing action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) - Validation state: "Valid"
+2025-02-12 18:48:54.402 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:48:54.412 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?base=EUR
+2025-02-12 18:48:56.202 +04:00 [INF] Received HTTP response headers after 1782.979ms - 200
+2025-02-12 18:48:56.210 +04:00 [INF] End processing HTTP request after 1814.6137ms - 200
+2025-02-12 18:49:05.343 +04:00 [INF] Executed action method CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29096.9316ms.
+2025-02-12 18:49:05.365 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterAPI.Models.ConversionResponse'.
+2025-02-12 18:49:05.723 +04:00 [INF] Executed action CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI) in 29687.0299ms
+2025-02-12 18:49:05.728 +04:00 [INF] Executed endpoint 'CurrencyConverterAPI.Controllers.CurrencyController.ConvertCurrency (CurrencyConverterAPI)'
+2025-02-12 18:49:05.734 +04:00 [INF] Response sent: POST /api/v1/Currency/convert, Status: 200, Response Time: 30134 ms, CorrelationId: 65d4b9ab-1e7f-460b-b44f-d17bd17a2a6c
+2025-02-12 18:49:05.739 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5160/api/v1/Currency/convert - 200 null application/json; charset=utf-8 30149.1101ms

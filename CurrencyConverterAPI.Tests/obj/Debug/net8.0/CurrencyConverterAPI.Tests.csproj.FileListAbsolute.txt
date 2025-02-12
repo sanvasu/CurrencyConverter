@@ -1,0 +1,6 @@
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_CurrencyConverterAPI.Tests
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\obj\Debug\net8.0\CurrencyConverterAPI.Tests.csproj.AssemblyReference.cache
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\obj\Debug\net8.0\CurrencyConverterAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\obj\Debug\net8.0\CurrencyConverterAPI.Tests.AssemblyInfoInputs.cache
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\obj\Debug\net8.0\CurrencyConverterAPI.Tests.AssemblyInfo.cs
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI.Tests\obj\Debug\net8.0\CurrencyConverterAPI.Tests.csproj.CoreCompileInputs.cache
