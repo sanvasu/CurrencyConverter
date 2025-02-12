@@ -81,3 +81,5 @@ D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\net8
 D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\net8.0\ref\CurrencyConverterAPI.dll
 D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\net8.0\CurrencyConverterAPI.sourcelink.json
+D:\CurrencyConverterApi\CurrencyConverterAPI\CurrencyConverterAPI\bin\Debug\net8.0\appsettings.Production.json

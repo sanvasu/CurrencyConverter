@@ -35,7 +35,7 @@ builder.Services.AddOpenTelemetry()
         .AddHttpClientInstrumentation()
         .AddOtlpExporter(opts =>
         {
-            opts.Endpoint = new Uri("https://api.datadoghq.com/v1/traces");
+            opts.Endpoint = new Uri("http://localhost:4318/v1/traces");
         }));
 
 builder.Services.AddControllers();
