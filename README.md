@@ -16,7 +16,7 @@ This project provides a currency conversion API that allows users to convert amo
    ```bash
    git clone https://github.com/sanvasu/CurrencyConverter.git
 
-   ### Assumptions Made
+** ### Assumptions Made**
 - Exchange Rate API Availability: The project assumes that the external exchange rate API is available and provides valid data. Any downtime or changes in the API may affect functionality.
 
 - Currencies Supported: The application assumes that the requested currencies are supported by the external API. If a currency is not supported, the conversion will fail.
@@ -25,7 +25,7 @@ This project provides a currency conversion API that allows users to convert amo
 
 - Error Handling: The system assumes that network-related errors or invalid input will be handled gracefully by throwing exceptions or returning appropriate HTTP status codes.
 
-###Possible Future Enhancements
+** ###Possible Future Enhancements**
 - Support for historical exchange rates so users can convert amounts based on past exchange rates.
 
 - Multi language support for international users to interact with their prefered language
